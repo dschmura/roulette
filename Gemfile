@@ -28,7 +28,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
-
+gem 'listen', '~> 3.0.5'
 gem 'capistrano-rails', group: :development
 gem 'capistrano-rvm'
 gem 'capistrano-passenger'
@@ -43,7 +43,7 @@ group :development, :test do
   group :development do
     gem 'better_errors'
     gem 'binding_of_caller'
-    gem 'listen', '~> 3.0.5'
+    
     gem 'letter_opener'
     gem 'spring'
     gem 'spring-watcher-listen', '~> 2.0.0'

@@ -12,7 +12,7 @@ set :deploy_to, '~/applications/testapp1'
 
 # Skip migration if files in db/migrate were not modified
 set :conditionally_migrate, true
-
+set :pty, true
 # Default value for :scm is :git
 # set :scm, :git
 

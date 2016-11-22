@@ -31,6 +31,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'capistrano-rails', group: :development
 gem 'capistrano-rvm'
+gem 'capistrano-passenger'
 group :development, :test do
     gem 'pry'
     gem 'pry-nav'

@@ -19,6 +19,10 @@ default: &default
 
 development:
   <<: *default
+  database: misrsmok_testapp1_development
+
+staging:
+  <<: *default
   database: roulette_development
 
 # Warning: The database defined as "test" will be erased and

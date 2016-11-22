@@ -25,7 +25,7 @@ set :conditionally_migrate, true
 
 # Default value for :pty is false
 # set :pty, true
-
+set :bundle_path, -> { '~/applications/testapp1/shared/vendor/bundle' }
 # Default value for :linked_files is []
 # append :linked_files, 'config/database.yml', 'config/secrets.yml'
 

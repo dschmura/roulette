@@ -49,7 +49,7 @@ server 'mis-rsmoke.dean.lsa.umich.edu', user: 'misrsmoke', roles: %w{app db web}
 #
 # The server-based syntax can be used to override options:
 # ------------------------------------
-server 'mis-rsmoke.dean.lsa.umich.edu', port: 2222
+server 'mis-rsmoke.dean.lsa.umich.edu:2222',
   user: 'misrsmoke',
   roles: %w{web app db},
   ssh_options: {

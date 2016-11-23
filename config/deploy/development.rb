@@ -59,4 +59,4 @@ server 'mis-rsmoke.dean.lsa.umich.edu',
     auth_methods: %w(publickey)
 #     auth_methods: %w(publickey password)
 #     # password: 'please use keys'
-#   }
+   }

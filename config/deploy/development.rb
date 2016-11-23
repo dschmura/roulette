@@ -54,7 +54,7 @@ server 'mis-rsmoke.dean.lsa.umich.edu',
   roles: %w{web app db},
   ssh_options: {
     user: 'misrsmoke', # overrides user setting above
-    keys: %w(/home/misrsmoke/.ssh),
+    keys: %w(/home/misrsmoke/.ssh/codeship.pub),
     forward_agent: false,
     auth_methods: %w(publickey)
 #     auth_methods: %w(publickey password)

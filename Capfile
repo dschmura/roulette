@@ -25,3 +25,6 @@ require 'capistrano/passenger'
 require 'capistrano/rails'
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined
 Dir.glob("lib/capistrano/tasks/*.rake").each { |r| import r }
+
+# From http://stackoverflow.com/questions/21006875/set-default-stage-with-capistrano-3
+Rake::Task[:development].invoke

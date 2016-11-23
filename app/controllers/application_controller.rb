@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
-  before_action :redirect_https, :cosign_uniqname
+  before_action :redirect_https, :cosign_uniqname, :ldap_full_name
 
   private
   def cosign_uniqname

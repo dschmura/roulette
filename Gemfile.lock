@@ -119,6 +119,7 @@ GEM
     minitest (5.9.1)
     multi_json (1.12.1)
     mysql2 (0.4.5)
+    net-ldap (0.15.0)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (3.2.0)
@@ -134,7 +135,7 @@ GEM
     pry-rails (0.3.4)
       pry (>= 0.9.10)
     public_suffix (2.0.4)
-    puma (3.6.1)
+    puma (3.6.2)
     rack (2.0.1)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -240,6 +241,7 @@ DEPENDENCIES
   letter_opener
   listen (~> 3.0.5)
   mysql2 (>= 0.3.18, < 0.5)
+  net-ldap (~> 0.15.0)
   pry
   pry-nav
   pry-rails (~> 0.3.2)

@@ -3,7 +3,7 @@ default: &default
   encoding: utf8
   pool: 5
   username: misrsmok_sUser
-  password: %wTUn[8Pz]mU
+  password: milktoast!
   host: localhost
 
 development:

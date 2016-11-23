@@ -49,13 +49,14 @@ server 'mis-rsmoke.dean.lsa.umich.edu', user: 'misrsmoke', roles: %w{app db web}
 #
 # The server-based syntax can be used to override options:
 # ------------------------------------
-# server 'example.com',
-#   user: 'user_name',
-#   roles: %w{web app},
-#   ssh_options: {
-#     user: 'user_name', # overrides user setting above
-#     keys: %w(/home/user_name/.ssh/id_rsa),
-#     forward_agent: false,
+server 'mis-rsmoke.dean.lsa.umich.edu',
+  user: 'misrsmoke',
+  roles: %w{web app db},
+  ssh_options: {
+    user: 'misrsmoke', # overrides user setting above
+    keys: %w(/home/misrsmoke/.ssh),
+    forward_agent: false,
+    auth_methods: %w(publickey)
 #     auth_methods: %w(publickey password)
 #     # password: 'please use keys'
 #   }

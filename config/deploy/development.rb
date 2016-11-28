@@ -3,12 +3,10 @@
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
-server 'mis-rsmoke.dean.lsa.umich.edu', user: 'misrsmoke', roles: %w{app db web}, port: 2222
+server 'mis-rsmoke.dean.lsa.umich.edu', user: 'misrsmoke', roles: %w{app db web}
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
-git fetch --unshallow || true
-git checkout "${CI_BRANCH}"
 
 # role-based syntax
 # ==================

@@ -32,7 +32,7 @@ gem 'listen', '~> 3.0.5'
 gem 'capistrano-rails', group: :development
 gem 'capistrano-rvm'
 gem 'capistrano-passenger'
-gem 'net-ldap', '~> 0.15.0'
+gem 'net-ldap', '~> 0.16.2'
 group :development, :test do
     gem 'pry'
     gem 'pry-nav'
